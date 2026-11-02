@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Couples Date Night · Nov 6</title>
+<meta name="description" content="Couples Date Night, Fri Nov 6, 7–9pm at 255 N. Highland. Pay for the baked potato bar (your payment is your RSVP) ($30 per couple) in one place.">
+<meta name="theme-color" content="#1f3b33">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 34 22'%3E%3Ccircle cx='12' cy='11' r='8.5' fill='none' stroke='%231f3b33' stroke-width='2.6'/%3E%3Ccircle cx='22' cy='11' r='8.5' fill='none' stroke='%23c8612b' stroke-width='2.6'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&family=Caveat:wght@700&family=Alfa+Slab+One&display=swap">
+<style>
+:root {
+  --bg: #f3ede4; --surface: #ffffff; --fg: #1f3b33; --fg-2: #6a6458; --line: #e2d8ca; --perf: #cdbfab;
+  --accent: #c8612b; --accent-ink: #a34a1d; --accent-soft: #f6e2cf; --butter: #f0c060; --red: #b5333f;
+  --dark: #1f3b33; --dark-muted: rgba(246,240,230,0.74); --dark-line: rgba(246,240,230,0.2);
+  --mustard: #e9a93a; --cobalt: #1f3b33; --tomato: #c8612b; --ink: #141414; --paper: #fffaf0;
+  --display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --font: "Figtree", "Avenir Next", system-ui, sans-serif;
+  --hand: "Caveat", "Bradley Hand", cursive;
+  --slab: "Alfa Slab One", "Rockwell", serif;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--fg); font: 400 16px/1.55 var(--font); -webkit-font-smoothing: antialiased; }
+.wrap { max-width: 560px; margin: 0 auto; padding: calc(26px + env(safe-area-inset-top, 0px)) 20px calc(40px + env(safe-area-inset-bottom, 0px)); display: grid; gap: 26px; }
+a { color: inherit; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+
+.top { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.logo { display: flex; align-items: center; gap: 9px; font-family: var(--display); font-weight: 700; font-size: 16px; }
+.logo circle { fill: none; stroke-width: 2.4; }
+.eyebrow { font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--accent-ink); }
+h1 { font-family: var(--display); font-weight: 800; letter-spacing: -0.03em; line-height: .95; font-size: clamp(42px, 12vw, 60px); margin: 0; text-wrap: balance; }
+h1 em { font-style: normal; color: var(--accent); }
+.intro { margin: 12px 0 0; font-size: 17px; color: var(--fg-2); }
+
+/* event ticket */
+.ticket { background: var(--dark); color: #f6f0e6; border-radius: 22px; display: grid; grid-template-columns: 100px 1fr; box-shadow: 0 1px 2px rgba(31,59,51,.08), 0 14px 30px -16px rgba(31,59,51,.45); }
+.stub { display: grid; place-content: center; justify-items: center; text-align: center; gap: 2px; padding: 20px 6px; border-right: 2px dashed var(--dark-line); position: relative; }
+.stub::before, .stub::after { content: ""; position: absolute; right: -11px; width: 20px; height: 20px; border-radius: 50%; background: var(--bg); }
+.stub::before { top: -10px; } .stub::after { bottom: -10px; }
+.mo { font-size: 11px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--butter); }
+.day { font-family: var(--display); font-size: 56px; font-weight: 800; line-height: .9; letter-spacing: -0.04em; }
+.wd { font-size: 12px; font-weight: 600; color: var(--dark-muted); }
+.ev { padding: 20px 20px; display: grid; gap: 6px; align-content: center; }
+.kicker { font-size: 10.5px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--butter); }
+.ev h2 { font-family: var(--display); font-weight: 800; letter-spacing: -0.02em; line-height: 1.05; font-size: 25px; margin: 0; }
+.meta { display: flex; flex-wrap: wrap; gap: 2px 14px; font-size: 14px; color: var(--dark-muted); }
+.meta span { display: inline-flex; align-items: center; gap: 6px; }
+.meta svg { width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
+
+/* steps */
+.step { display: grid; gap: 14px; }
+.step-head { display: flex; align-items: center; gap: 12px; }
+.step-num { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; background: var(--fg); color: #fff; font-family: var(--display); font-weight: 800; font-size: 17px; flex: none; }
+.step-head h3 { margin: 0; font-family: var(--display); font-weight: 800; font-size: 24px; letter-spacing: -0.015em; }
+.step-head p { margin: 0; font-size: 14px; color: var(--fg-2); }
+
+.btn-area { position: relative; padding-top: 34px; display: grid; gap: 8px; }
+.btn { display: flex; align-items: center; justify-content: space-between; gap: 14px; text-decoration: none; border-radius: 999px; padding: 10px 10px 10px 26px; font-family: var(--display); font-weight: 800; font-size: clamp(18px, 5.3vw, 22px); white-space: nowrap; letter-spacing: -0.01em; transition: transform .15s; }
+.btn:active { transform: translateY(1px); }
+.btn .arr { display: grid; place-items: center; width: 46px; height: 46px; border-radius: 50%; flex: none; }
+.btn svg { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-width: 2.8; stroke-linecap: round; stroke-linejoin: round; }
+.btn-rsvp { background: var(--accent); color: #fff; box-shadow: 0 12px 24px -10px rgba(200,97,43,.7); }
+.btn-rsvp .arr { background: #fff; color: var(--accent); }
+.tap { position: absolute; right: 4px; top: -14px; display: flex; align-items: flex-end; color: var(--red); pointer-events: none; }
+.tap span { font-family: var(--hand); font-weight: 700; font-size: 30px; line-height: 1; transform: rotate(-6deg); }
+.tap svg { width: 70px; height: 46px; fill: none; stroke: currentColor; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; transform: translateY(16px); }
+.small { text-align: center; font-size: 14px; color: var(--fg-2); margin: 0; }
+.small b { color: var(--fg); }
+
+/* dinner: the potato bar card, in its own poster look */
+.fry { background: var(--mustard); color: var(--ink); border: 3px solid var(--ink); box-shadow: 6px 6px 0 var(--ink); padding: 18px 18px 20px; display: grid; gap: 14px; position: relative; }
+.fry-title { margin: 0; text-align: center; font-family: var(--slab); font-weight: 400; text-transform: uppercase; line-height: .9; color: var(--cobalt); }
+.fry-title .a { display: block; font-size: 22px; letter-spacing: .04em; }
+.fry-title .b { display: block; font-size: 46px; color: var(--tomato); text-shadow: 2px 2px 0 var(--ink); }
+.menu { background: var(--paper); border: 2.5px solid var(--ink); padding: 12px 16px; }
+.menu ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 2px 18px; }
+.menu li { font-weight: 700; font-size: 15px; padding: 4px 0; display: flex; align-items: center; gap: 8px; }
+.menu li::before { content: ""; width: 7px; height: 7px; background: var(--tomato); border: 1.5px solid var(--ink); border-radius: 50%; flex: none; }
+.menu .lbl { grid-column: 1 / -1; font-family: var(--slab); font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--cobalt); padding-top: 6px; }
+.menu .lbl::before, .menu .blank::before { display: none; }
+.menu .lbl.first { padding-top: 0; }
+.pic { background: var(--paper); border: 2.5px solid var(--ink); padding: 10px 12px 12px; display: grid; gap: 4px; }
+.pic .potato { width: 100%; height: auto; display: block; }
+.trim { margin: 0; text-align: center; font-weight: 700; font-size: 14.5px; }
+.price { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.price .amt { font-family: var(--slab); font-size: 42px; line-height: 1; color: var(--ink); }
+.price .per { font-size: 13px; font-weight: 800; text-align: right; line-height: 1.25; }
+.btn-cash { background: var(--ink); color: var(--mustard); border-radius: 0; font-family: var(--slab); font-weight: 400; text-transform: uppercase; letter-spacing: .02em; box-shadow: 5px 5px 0 var(--cobalt); padding: 12px 12px 12px 20px; }
+.btn-cash .arr { background: var(--tomato); color: #fff; border: 2px solid var(--mustard); width: 42px; height: 42px; }
+.or { display: flex; align-items: center; gap: 10px; font-family: var(--slab); font-size: 14px; text-transform: uppercase; }
+.or::before, .or::after { content: ""; flex: 1; height: 2px; background: var(--ink); }
+.zelle { display: flex; align-items: center; justify-content: space-between; gap: 12px; background: var(--paper); border: 2.5px solid var(--ink); padding: 10px 14px; }
+.zelle .zl { display: block; font-family: var(--slab); font-size: 15px; text-transform: uppercase; color: var(--cobalt); }
+.zelle .zn { display: block; font-size: 20px; font-weight: 800; }
+.zelle .zh { font-size: 12px; font-weight: 600; text-align: right; max-width: 120px; line-height: 1.3; }
+.fry .note { margin: 0; font-size: 13.5px; font-weight: 600; }
+
+.help { background: var(--surface); border: 2px dashed var(--perf); border-radius: 18px; padding: 16px 20px; font-size: 15px; display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.help b { font-family: var(--display); font-size: 20px; color: var(--accent); white-space: nowrap; }
+.foot { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px; font-size: 12.5px; color: var(--fg-2); }
+
+@media print {
+  @page { size: 5.5in 18in; margin: 0; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .wrap { max-width: none; width: 5.5in; padding: 0.34in 0.3in 0.28in; }
+  .ticket, .btn-rsvp { box-shadow: none; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+.toppings { display: grid; gap: 8px; margin: 6px 0 4px; }
+html body .toppings .tl { font-family: "Alfa Slab One", "Rockwell", serif; font-size: 14px; letter-spacing: .08em; text-transform: uppercase; color: #1f3b33; text-align: center; }
+html body .toppings ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; }
+html body .toppings ul li { display: block; line-height: 1.3; font-family: "Work Sans", "Figtree", "Helvetica Neue", Arial, sans-serif; font-weight: 700; font-size: 13.5px; color: #141414; background: #fff; border: 2px solid #141414; border-radius: 999px; padding: 3px 11px; }
+html body .rsvp-note { display: flex; align-items: center; gap: 14px; background: #fffaf2; border: 2px solid #1f3b33; border-radius: 18px; padding: 16px 18px; }
+html body .rsvp-note b { display: block; font-family: "Bricolage Grotesque", "Avenir Next", sans-serif; font-weight: 800; font-size: 21px; letter-spacing: -0.015em; line-height: 1.15; color: #1f3b33; }
+html body .rsvp-note span:not(.rsvp-check) { display: block; font-size: 14.5px; color: #6a6458; margin-top: 3px; }
+html body .rsvp-check { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; background: #c8612b; color: #fff; flex: none; }
+html body .rsvp-check svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="top">
+    <div class="logo">
+      <svg width="32" height="21" viewBox="0 0 34 22" aria-hidden="true"><circle cx="12" cy="11" r="8.5" stroke="#1f3b33"/><circle cx="22" cy="11" r="8.5" stroke="#c8612b"/></svg>
+      Couples Date Night
+    </div>
+    <span class="eyebrow">This Friday</span>
+  </div>
+
+  <header>
+    <h1>Table for two,<br><em>and a few more.</em></h1>
+    <p class="intro">One quick step and you're all set: pay for dinner below, and your seats are saved.</p>
+  </header>
+
+  <section class="ticket" aria-label="Event details">
+    <div class="stub"><span class="mo">Nov</span><span class="day">6</span><span class="wd">Friday</span></div>
+    <div class="ev">
+      <span class="kicker">Next up</span>
+      <h2>Communicating &amp; Fighting Fair</h2>
+      <div class="meta">
+        <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>7–9pm</span>
+        <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg>255 N. Highland</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="rsvp-note" aria-label="How to RSVP">
+    <span class="rsvp-check" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>
+    <div><b>Your dinner payment is your RSVP.</b><span>Pay below and your seats are saved.</span></div>
+  </section>
+
+  <section class="step" aria-labelledby="s2">
+    <div class="step-head"><div><h3 id="s2">Pay for dinner</h3><p>$30 covers dinner for the two of you.</p></div></div>
+    <div class="fry">
+      <h4 class="fry-title"><span class="a">Friday Night Baked</span><span class="b">Potato Bar</span></h4>
+      <div class="pic"><svg class="potato" viewBox="0 0 400 280" role="img" aria-label="A loaded baked potato with butter, sour cream, cheese, bacon, chives, broccoli and chili">
+  <g stroke="#141414" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- plate -->
+    <ellipse cx="200" cy="250" rx="178" ry="22" fill="#141414" stroke="none" opacity=".16"/>
+    <ellipse cx="200" cy="238" rx="186" ry="30" fill="#fffaf0"/>
+    <!-- potato skin: an oblong, slightly lumpy -->
+    <path d="M38 190 C 30 160, 70 136, 130 132 C 170 128, 240 128, 280 132 C 336 136, 374 160, 364 192 C 356 222, 300 240, 200 240 C 100 240, 46 222, 38 190 Z" fill="#a86a33"/>
+    <path d="M64 206 C 120 230, 290 230, 340 204" fill="none" stroke="#6b3f17" stroke-width="3" opacity=".55"/>
+    <g fill="#6b3f17" stroke="none" opacity=".7">
+      <circle cx="76" cy="194" r="3"/><circle cx="112" cy="218" r="2.6"/><circle cx="312" cy="216" r="3"/><circle cx="338" cy="190" r="2.6"/><circle cx="262" cy="228" r="2.2"/><circle cx="160" cy="228" r="2.2"/>
+    </g>
+    <!-- the split: fluffy potato bursting up out of the skin -->
+    <path d="M78 168 C 74 140, 110 118, 136 116 C 150 96, 186 84, 210 90 C 234 80, 270 92, 280 112 C 310 114, 330 140, 322 168 C 290 184, 110 184, 78 168 Z" fill="#f4dca0"/>
+    <path d="M104 160 C 140 172, 260 172, 298 160" fill="none" stroke="#e2bd6e" stroke-width="3"/>
+    <!-- skin lips curling at each end of the split -->
+    <path d="M70 172 C 86 182, 104 186, 124 186" fill="none" stroke="#6b3f17" stroke-width="5"/>
+    <path d="M330 172 C 314 182, 296 186, 276 186" fill="none" stroke="#6b3f17" stroke-width="5"/>
+    <!-- chili, left side of the pile -->
+    <path d="M90 156 C 88 132, 120 120, 146 128 C 162 138, 156 164, 126 170 C 104 172, 92 166, 90 156 Z" fill="#8a3b1c"/>
+    <g fill="#5a2410" stroke="none"><ellipse cx="112" cy="146" rx="6" ry="4"/><ellipse cx="134" cy="152" rx="6" ry="4"/><ellipse cx="120" cy="160" rx="5" ry="3.5"/></g>
+    <!-- broccoli, right side -->
+    <path d="M300 150 L 292 172" stroke-width="7"/>
+    <path d="M300 150 L 292 172" stroke-width="3" stroke="#9cc06a"/>
+    <circle cx="288" cy="140" r="12" fill="#3f7a35"/>
+    <circle cx="306" cy="132" r="13" fill="#4a8a3c"/>
+    <circle cx="318" cy="148" r="11" fill="#3f7a35"/>
+    <!-- melted cheese spilling down the sides -->
+    <path d="M146 112 C 176 94, 250 92, 282 116 C 290 126, 288 140, 278 138 C 280 156, 266 162, 262 146 C 256 158, 244 158, 242 144 C 236 176, 220 176, 220 146 C 206 154, 194 152, 192 138 C 184 160, 168 160, 168 140 C 156 146, 144 136, 150 126 C 140 124, 140 116, 146 112 Z" fill="#f2a03d"/>
+    <!-- big sour cream dollop on top -->
+    <path d="M168 104 C 160 84, 182 62, 204 70 C 216 50, 252 56, 252 80 C 272 84, 272 112, 252 118 C 242 132, 202 134, 188 122 C 168 124, 158 112, 168 104 Z" fill="#fffaf0"/>
+    <path d="M196 86 C 208 78, 226 80, 234 90" fill="none" stroke-width="2.5" opacity=".3"/>
+    <!-- butter pat melting on top -->
+    <g transform="rotate(-12 236 60)">
+      <path d="M214 46 h 44 a 5 5 0 0 1 5 5 v 24 a 5 5 0 0 1 -5 5 c -6 0 -6 8 -12 8 c -6 0 -6 -8 -12 -8 h -20 a 5 5 0 0 1 -5 -5 v -24 a 5 5 0 0 1 5 -5 z" fill="#f6d36a"/>
+      <path d="M220 54 L 252 54" stroke="#fff6c9" stroke-width="4"/>
+    </g>
+  </g>
+  <!-- bacon bits -->
+  <g stroke="#141414" stroke-width="2.5" stroke-linejoin="round">
+    <rect x="176" y="108" width="11" height="7" rx="1.5" fill="#b5333f" transform="rotate(20 181 111)"/>
+    <rect x="236" y="112" width="12" height="7" rx="1.5" fill="#8f2a24" transform="rotate(-18 242 115)"/>
+    <rect x="196" y="74" width="10" height="7" rx="1.5" fill="#b5333f" transform="rotate(-30 201 77)"/>
+    <rect x="158" y="128" width="11" height="7" rx="1.5" fill="#8f2a24" transform="rotate(12 163 131)"/>
+    <rect x="262" y="124" width="11" height="7" rx="1.5" fill="#b5333f" transform="rotate(35 267 127)"/>
+    <rect x="206" y="124" width="10" height="6" rx="1.5" fill="#8f2a24" transform="rotate(-8 211 127)"/>
+    <rect x="252" y="92" width="10" height="6" rx="1.5" fill="#8f2a24" transform="rotate(24 257 95)"/>
+  </g>
+  <!-- chives -->
+  <g stroke="#2f6b2a" stroke-width="4" stroke-linecap="round">
+    <path d="M182 86 l 7 -3"/><path d="M226 96 l 7 2"/><path d="M204 104 l 5 4"/><path d="M240 100 l 6 -2"/><path d="M174 96 l 4 5"/><path d="M222 116 l 7 -1"/><path d="M190 120 l 5 -4"/><path d="M262 108 l 3 6"/><path d="M150 118 l 6 3"/><path d="M270 138 l 6 -3"/>
+  </g>
+  <!-- steam -->
+  <g fill="none" stroke="#141414" stroke-width="3.5" stroke-linecap="round" opacity=".45">
+    <path d="M150 52 C 140 38, 160 28, 150 12"/><path d="M290 64 C 280 50, 300 40, 290 24"/><path d="M120 92 C 110 78, 130 68, 120 52"/>
+  </g>
+</svg>
+        <div class="toppings"><span class="tl">Toppings</span><ul><li>Butter</li><li>Sour cream</li><li>Shredded cheese</li><li>Bacon bits</li><li>Chives</li><li>Chili</li><li>Broccoli</li></ul></div>
+        <p class="trim">Loaded with all the trimmings. Includes a beverage and dessert.</p>
+      </div>
+      <div class="price"><span class="amt">$30</span><span class="per">per couple<br>dinner for two</span></div>
+      <a class="btn btn-cash" href="https://cash.app/$WillTurner78/30" target="_blank" rel="noopener">Pay $30 on Cash App<span class="arr"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></span></a>
+      <div class="or" aria-hidden="true">or</div>
+      <div class="zelle">
+        <div><span class="zl">Pay with Zelle</span><span class="zn">(901) 921-3322</span></div>
+        <span class="zh">Open your bank app and send $30</span>
+      </div>
+      <p class="note">In the note or memo, add your names and "Nov 6 dinner."</p>
+    </div>
+  </section>
+
+  <div class="help"><span>Questions? Just text us.</span><b>(901) 921-3322</b></div>
+  <div class="foot"><span>Couples Date Night · Memphis</span><span>Line up a sitter. We'll bring the potatoes.</span></div>
+</main>
+</body>
+</html>
